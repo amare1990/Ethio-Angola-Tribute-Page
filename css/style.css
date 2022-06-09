@@ -24,16 +24,19 @@ header{
     margin-top: 2rem;
 }
 #image{
-    background-color: rgb(252, 245, 245);
     display: block;
-    width: 100%;
+    background-color: white;
+    max-width: 100%;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
     height: auto;
-    text-align: inherit;
+    
+
 
 }
-.info{
-    font-weight: bold;
-}
+
 #tribute-info{
     margin: 20rem;
 }
@@ -42,4 +45,7 @@ header{
 }
 #final > p{
     margin: 10rem;
+}
+.year{
+    font-weight: bold;
 }
